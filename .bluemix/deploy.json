@@ -50,8 +50,7 @@
         "prod-space",
         "prod-app-name"
     ],
-    "form": [
-        {
+    "form": [{
             "type": "validator",
             "url": "/devops/validator/validator-v1.html"
         },
@@ -62,10 +61,10 @@
             "key": "prod-app-name"
         },
         {
-	        "type": "password",
-	        "readonly": false,
-	        "title": "IBM Cloud API Key",
-	        "key": "api-key"
+            "type": "password",
+            "readonly": false,
+            "title": "IBM Cloud API Key",
+            "key": "api-key"
         },
         {
             "type": "table",
@@ -76,8 +75,7 @@
                 "28%",
                 "28%"
             ],
-            "items": [
-                {
+            "items": [{
                     "type": "label",
                     "title": ""
                 },
